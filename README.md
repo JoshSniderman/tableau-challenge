@@ -14,3 +14,39 @@ Full CitiBike Story can be found at https://public.tableau.com/app/profile/josh.
 
 Before we can begin preparing visuals, we must fix the data to make our tasks possible.
 
+![full_map](Images/full_map.png)
+
+![isolated_map](Images/isolated_map.png)
+
+![age_per_region](Images/age_per_region.png)
+
+![spike_visual](Images/spike_visual.png)
+
+![spike_dist](Images/spike_dist.png)
+
+![age_without_spike](Images/age_without_spike.png)
+
+![age_dash](Images/age_dash.png)
+
+![age_dash_isolated](Images/age_dash_isolated.png)
+
+![user_standing](Images/user_standing.png)
+
+![user_duration_full](Images/user_duration_full.png)
+
+![hours_parameter](Images/hours_parameter.png)
+
+![above_below](Images/above_below.png)
+
+![hours_judgement](Images/hours_judgement.png)
+
+![user_dash](Images/user_dash.png)
+
+![user_dash_isolate](Images/user_dash_isolate.png)
+
+![user_dash_without_spike](Images/user_dash_without_spike.png)
+
+
+
+
+
