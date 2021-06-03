@@ -25,35 +25,27 @@ Data shown can be isolate by region.
 Prediction 1: Ages in regions, mostly peak near millennial birth years.
 Set up Count of Trips by Birth Year
 
-![age_per_region](Images/age_per_region.png)
+![full_age](Images/full_age.png)
 
 Anomaly 1: Large spike at 1969 – 1970
 Assumption is default birthyear, lack of null values
 Birth year (around spike) group created, show with Total Count
 
-![spike_visual](Images/spike_visual.png)
-
 Distribution by Age created to show how extreme the spike is
-
-![spike_dist](Images/spike_dist.png)
 
 Concluded it is difficult to determine which 1969-1970 datapoints are genuine, so all visuals using age will exclude birthyears 1969 and 1970.
 Count of Trips by birth year viz duplicated, this time with birthyear (around spike) filter created
 
-
-
-![age_without_spike](Images/age_without_spike.png)
+![filtered_age](Images/filtered_age.png)
 
 As predicted, majority of birthyears in millennial birthyears, with peaks at 1990 for Manhattan, Brooklyn, and Queens, and peak at 1988 for the Bronx.
 
 Birthyear Dash
 Birthyear dash 1
 
-![age_dash](Images/age_dash.png)
+![filtered_age_isolated](Images/filtered_age_isolated.png)
 
-Data can be isolated by region for more detailed analysis.
 
-![age_dash_isolated](Images/age_dash_isolated.png)
 
 Prediction 2: Majority of trips will be within the allowed duration established by CitiBkie’s service.
 According to citibikenyc.com, Day Passes are restricted to 30-minute trips, and annual subscriptions are restricted to 45-minute trips
@@ -63,30 +55,18 @@ For this reason, the User Standing Calculated Field has been created
 
 Using user standing, line graph Durations of Usertype created
 
-![user_duration_full](Images/user_duration_full.png)
+![full_user_stand](Images/full_user_stand.png)
 
 Anomaly 2: Data with extreme time durations, some as high as over 800 hours
 Assumed to be Bikes either used for extreme periods of time, or bikes were stolen
 
-To figure the importance of extreme time durations on overall analysis, Parameter AB and Group Above/Below have been created, to create graph Are Durations Over 1 Hour Worth putting on visualization
-
-![hours_parameter](Images/hours_parameter.png)
-
-![above_below](Images/above_below.png)
-
-![hours_judgement](Images/hours_judgement.png)
-
 Data points over 1 hour are so insignificant, the are not necessary to put onto the visual. Therefore, will be excluded for easier readability on User Standing by Usertype
 
-![user_dash](Images/user_dash.png)
+![filtered_user_stand](Images/filtered_user_stand.png)
 
 As we see on the dashboard, large humps in good standing data, with significant declines before becoming overdue, proving our prediction.
 
 Over 98% Subscribers good standing, but only 88% of customers, most likely tourists, which makes sense.
-
-Visual can be isolated by usertype and userstanding cross:
-
-![user_dash_isolate](Images/user_dash_isolate.png)
 
 One interesting point: if isolating users from the 1969-1970 spike from the previous exercise, almost exclusively Customers
 
