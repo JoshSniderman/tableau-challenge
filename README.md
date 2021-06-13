@@ -14,7 +14,9 @@ Full CitiBike Story can be found at https://public.tableau.com/app/profile/josh.
 
 Datasets used includes data for rentals from January, Feburary, March, and April of 2021 (four months of data).
 
-Before we can begin preparing visuals, we must fix the data to make our tasks possible. Using the map visual and the lasso tool, we can group the locations into four regions : Manhattan, Brooklyn, Queens, and the Bronx. --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before we can begin preparing visuals, we must fix the data to make our tasks possible. Using the map visual and the lasso tool, we can group the locations into four regions : Manhattan, Brooklyn, Queens, and the Bronx. 
+
+-----
 ![full_map](Images/full_map.png)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
