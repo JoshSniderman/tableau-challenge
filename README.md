@@ -10,7 +10,7 @@ For the purposes of this assignment, I chose to complete two tasks:
 - Break down the distribution of ages by region of the New York City area.
 - Show the percentage of users returned the bikes within the time restriction set by CitiBike's service.
 
-Full CitiBike Story can be found at https://public.tableau.com/app/profile/josh.sniderman/viz/CitiBike_Analysis_16219772087340/CitiBikeStory
+Full CitiBike Presentation can be found at [here.](https://public.tableau.com/app/profile/josh.sniderman/viz/CitiBike_Presentaion/CitiBikeStory)
 
 ## Data Preparation
 
