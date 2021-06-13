@@ -1,6 +1,6 @@
 # tableau-challenge
 
-![cikibike_logo](Images/cikibike_logo.jpg)
+![cikibike_logo](/Images/citibike_logo.jpg)
 
 ## Introduction
 
