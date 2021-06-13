@@ -18,7 +18,7 @@ Before we can begin preparing visuals, we must fix the data to make our tasks po
 
 -----
 ![full_map](Images/full_map.png)
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----
 
 ## Prediction 1: 
 ### Ages in each regions will peak near millennial birth years (1985 - 1994).
@@ -27,9 +27,9 @@ We believe that most rental bike users in the New York City area will be milleni
 
 To see the distribution of ages in the regions, we have created a dashboard:
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----
 ![full_age](Images/full_age.png)
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----
 
 As we can see from this visualization, we have found our ***first anomaly***, a large spike of data entries in the years 1969 and 1970. As we see on the dashboard, 72.93% of all data points fall within these two years. Since it would be unrealistic that this many people would be born in a single year, we must make another assumption as to why there are so many data entries for this birthyear.
 
@@ -39,15 +39,15 @@ Unfortunately, there is not an easy way to determine which users were actually b
 
 The folowing dashboard uses data excluding birthyears 1969 and 1970. We can clearly see the gap in the lower left visual, but it is safe to assume a straight line connecting the data around the gap:
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----
 ![filtered_age](Images/filtered_age.png)
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----
 
 As predicted, majority of birthyears in millennial birthyears, with 36.94% of datapoints falling within the bounds of 1985 to 1994, with peaks at 1990 for Manhattan, Brooklyn, and Queens, and peak at 1988 for the Bronx. An overall peak at 1990 can be seen below when isolated:
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----
 ![filtered_age_isolated](Images/filtered_age_isolated.png)
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----
 
 ## Prediction 2: 
 ### Most rentals will be returned within the allowed time established by CitiBkie’s service.
@@ -56,18 +56,18 @@ According to citibikenyc.com, Day Passes are restricted to 30-minute trips, and 
 
 Using user standing, line graph Durations of Usertype created
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----
 ![full_user_stand](Images/full_user_stand.png)
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----
 
 Anomaly 2: Data with extreme time durations, some as high as over 800 hours
 Assumed to be Bikes either used for extreme periods of time, or bikes were stolen
 
 Data points over 1 hour are so insignificant, the are not necessary to put onto the visual. Therefore, will be excluded for easier readability on User Standing by Usertype
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----
 ![filtered_user_stand](Images/filtered_user_stand.png)
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----
 
 As we see on the dashboard, large humps in good standing data, with significant declines before becoming overdue, proving our prediction.
 
@@ -75,8 +75,8 @@ Over 98% Subscribers good standing, but only 88% of customers, most likely touri
 
 One interesting point: if isolating users from the 1969-1970 spike from the previous exercise, almost exclusively Customers
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----
 ![user_dash_without_spike](Images/user_dash_without_spike.png)
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----
 
 Taking what we concluded from the previous section about 1970 being essentially a null value, this would make sense, as Subscribers are more likely to fill in personal information, whereas one-time customers will certainly skip out on filling out forms.
