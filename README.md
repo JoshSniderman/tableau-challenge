@@ -16,7 +16,7 @@ Datasets used includes data for rentals from January, Feburary, March, and April
 
 Before we can begin preparing visuals, we must fix the data to make our tasks possible. Using the map visual and the lasso tool, we can group the locations into four regions : Manhattan, Brooklyn, Queens, and the Bronx. 
 
------
+
 ![full_map](Images/full_map.png)
 -----
 
@@ -27,7 +27,7 @@ We believe that most rental bike users in the New York City area will be milleni
 
 To see the distribution of ages in the regions, we have created a dashboard:
 
------
+
 ![full_age](Images/full_age.png)
 -----
 
@@ -39,13 +39,13 @@ Unfortunately, there is not an easy way to determine which users were actually b
 
 The folowing dashboard uses data excluding birthyears 1969 and 1970. We can clearly see the gap in the lower left visual, but it is safe to assume a straight line connecting the data around the gap:
 
------
+
 ![filtered_age](Images/filtered_age.png)
 -----
 
 As predicted, majority of birthyears in millennial birthyears, with 36.94% of datapoints falling within the bounds of 1985 to 1994, with peaks at 1990 for Manhattan, Brooklyn, and Queens, and peak at 1988 for the Bronx. An overall peak at 1990 can be seen below when isolated:
 
------
+
 ![filtered_age_isolated](Images/filtered_age_isolated.png)
 -----
 
@@ -56,7 +56,7 @@ According to citibikenyc.com, Day Passes are restricted to 30-minute trips, and 
 
 Using user standing, line graph Durations of Usertype created
 
------
+
 ![full_user_stand](Images/full_user_stand.png)
 -----
 
@@ -65,7 +65,7 @@ Assumed to be Bikes either used for extreme periods of time, or bikes were stole
 
 Data points over 1 hour are so insignificant, the are not necessary to put onto the visual. Therefore, will be excluded for easier readability on User Standing by Usertype
 
------
+
 ![filtered_user_stand](Images/filtered_user_stand.png)
 -----
 
@@ -75,7 +75,7 @@ Over 98% Subscribers good standing, but only 88% of customers, most likely touri
 
 One interesting point: if isolating users from the 1969-1970 spike from the previous exercise, almost exclusively Customers
 
------
+
 ![user_dash_without_spike](Images/user_dash_without_spike.png)
 -----
 
