@@ -33,9 +33,9 @@ To see the distribution of ages in the regions, we have created a dashboard:
 ![full_age](Images/full_age.png)
 -----
 
-As we can see from this visualization, we have found our ***first anomaly***, a large spike of data entries in the years 1969 and 1970. As we see on the dashboard, 72.93% of all data points fall within these two years. Since it would be unrealistic that this many people would be born in a single year, we must make another assumption as to why there are so many data entries for this birthyear.
+As we can see from this visualization, we have found our **first anomaly**, a large spike of data entries in the years 1969 and 1970. As we see on the dashboard, 72.93% of all data points fall within these two years. Since it would be unrealistic that this many people would be born in a single year, we must make another assumption as to why there are so many data entries for this birthyear.
 
-When we look at the data, we see that there are no ***null*** values. Knowing that it is unlikely that every single user has chosen to enter their birthyear for use of the service, we can assume that the users who chose not to give CitiBike their personal information simply left this field on the default value, which must have been 1970. It is much more likely that 72.93% of users simply did wish to fill in this information, than 72.93% of users be born in a single year.
+When we look at the data, we see that there are no **null** values. Knowing that it is unlikely that every single user has chosen to enter their birthyear for use of the service, we can assume that the users who chose not to give CitiBike their personal information simply left this field on the default value, which must have been 1970. It is much more likely that 72.93% of users simply did wish to fill in this information, than 72.93% of users be born in a single year.
 
 Unfortunately, there is not an easy way to determine which users were actually born in 1970, and which were only default valued entries. For this reason, for the purposes of our analysis, we must exclude all values from the birthyears 1969 and 1970 to see a more accurate look of age distribution. 
 
@@ -62,7 +62,7 @@ To visualize this data, we will show the distribution of of trips falling within
 ![full_user_stand](Images/full_user_stand.png)
 -----
 
-Using all of the data, we have created a visual which is largely unhelpful. Most data is squished to the left side of the graph because of the unusually large Trip Duration values present in the data. Here we find our ***second anomaly*** in the data: entries with extreme time durations, some as high as over 800 hours. That's over 33 days!
+Using all of the data, we have created a visual which is largely unhelpful. Most data is squished to the left side of the graph because of the unusually large Trip Duration values present in the data. Here we find our **second anomaly** in the data: entries with extreme time durations, some as high as over 800 hours. That's over 33 days!
 
 Given the nature of our business, it would be safe to assume that some bikes may be kept for periods much longer than allowed, and to assume some bike will be stolen. These bikes will allot for such extreme duration values. For this reason, it would be smart for us to limit the trip durations to values that make a more useful visual.
 
